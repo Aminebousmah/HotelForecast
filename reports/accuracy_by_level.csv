@@ -1,0 +1,9 @@
+level,model,wape
+hôtel,LightGBM global,0.09587400009932769
+hôtel,Réconcilié,0.11803361263094836
+marque × région,LightGBM global,0.04532105626090886
+marque × région,Réconcilié,0.08102654409380641
+marque,LightGBM global,0.02383428618956533
+marque,Réconcilié,0.06252250932854123
+groupe,LightGBM global,0.01603362790835141
+groupe,Réconcilié,0.058690397818817054

@@ -1,0 +1,7 @@
+{
+  "interval_80_coverage": 0.764104938271605,
+  "coherence_gap_rooms": 1.8189894035458565e-12,
+  "folds": 6,
+  "hotels": 60,
+  "rows": 32400
+}
