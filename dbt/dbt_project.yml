@@ -1,0 +1,13 @@
+name: hotelforecast
+version: "1.0"
+profile: hotelforecast
+model-paths: ["models"]
+target-path: target
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  hotelforecast:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

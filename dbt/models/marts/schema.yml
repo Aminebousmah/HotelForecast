@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: dim_hotel
+    columns:
+      - name: hotel_id
+        tests: [not_null, unique]
+  - name: fact_daily_hotel
+    columns:
+      - name: hotel_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_hotel')
+              field: hotel_id
+      - name: stay_date
+        tests: [not_null]
+  - name: fact_forecast
+    columns:
+      - name: forecast_rooms
+        tests: [not_null]
+  - name: fact_accuracy
+    columns:
+      - name: wape_model
+        tests: [not_null]

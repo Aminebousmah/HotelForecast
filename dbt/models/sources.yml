@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: daily_hotel
+      - name: hotels
+      - name: dates
+      - name: backtest
